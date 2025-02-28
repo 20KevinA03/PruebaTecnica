@@ -24,7 +24,7 @@ Permite gestionar usuarios con funcionalidades de **login, creación, edición y
 ✅ **Login de usuarios con validación y actualización de último acceso**  
 ✅ **Gestión de usuarios**: Crear, editar y eliminar usuarios  
 ✅ **Protección de rutas**: Solo usuarios autenticados pueden ver la lista de usuarios  
-✅ **Interfaz intuitiva y responsiva**  
+✅ **Interfaz intuitiva**  
 
 ---
 
