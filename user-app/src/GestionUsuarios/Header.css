@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  background: linear-gradient(to right, #205AAB, #7DC440);
+  padding: 1rem 5rem;
+  color: #fff;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.logout-button{
+  background: transparent;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

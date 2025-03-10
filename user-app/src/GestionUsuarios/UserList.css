@@ -1,0 +1,94 @@
+.container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #205aab;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th {
+    background-color: #205aab;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background: #f4f4f4;
+  }
+  
+  tr:hover {
+    background-color: #e6e6e6;
+    transition: background 0.3s;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+
+
+  .btnAgregarDisplay{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: end;
+  }
+
+  .btnAgregar{
+    background-color: #7dc440;
+  }
+  
+  .btnAgregar:hover {
+    background-color: #5a9c30;
+  }
+  
+  .btnEditar{
+    background-color: #205AAB;
+  }
+  
+  .btnEditar:hover {
+    background-color: #0b1e38;
+  }
+  .btnEliminar{
+    background-color: #ab2020;
+  }
+  
+  .btnEliminar:hover {
+    background-color: rgb(156, 48, 48);
+  }
